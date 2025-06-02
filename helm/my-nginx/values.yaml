@@ -6,7 +6,7 @@ image:
   pullPolicy: IfNotPresent
 
 service:
-  type: ClusterIP
+  type: LoadBalancer # Changed from ClusterIP
   port: 80
 
 resources: {}
